@@ -19,5 +19,10 @@ namespace StudentRegistrationApp.Controllers
         {
             return View(_db.Students.ToList());
         }
+
+        public IActionResult Register()
+        {
+            return View();
+        }
     }
 }
