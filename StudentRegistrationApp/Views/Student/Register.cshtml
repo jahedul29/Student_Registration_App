@@ -6,6 +6,7 @@
 <h3 class="text-info">Register New Student</h3>
 <br />
 <div class="container">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <div style="padding: 30px; border: 2px solid black">
         <form asp-action="Register">
             <div class="form-group">
@@ -14,9 +15,10 @@
                         <label asp-for="Name"></label>
                     </div>
                     <div class="col-sm-4">
-                        <input asp-for="Name" class="form-control" />
+                        <input asp-for="Name" class="form-control"/>
                     </div>
                 </div>
+                <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <div class="row">
@@ -26,6 +28,7 @@
                     <div class="col-sm-4">
                         <input asp-for="Age" class="form-control" />
                     </div>
+                    <span asp-validation-for="Age" class="text-danger"></span>
                 </div>
             </div>
             <div class="form-group">
@@ -36,6 +39,7 @@
                     <div class="col-sm-4">
                         <input asp-for="Class" class="form-control" />
                     </div>
+                    <span asp-validation-for="Class" class="text-danger"></span>
                 </div>
             </div>
             <div class="form-group">
