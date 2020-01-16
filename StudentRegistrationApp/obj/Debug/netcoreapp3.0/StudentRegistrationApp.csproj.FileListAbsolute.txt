@@ -143,3 +143,6 @@ D:\Project\StudentRegistrationApp\StudentRegistrationApp\bin\Debug\netcoreapp3.0
 D:\Project\StudentRegistrationApp\StudentRegistrationApp\obj\Debug\netcoreapp3.0\StudentRegistrationApp.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\StudentRegistrationApp\StudentRegistrationApp\obj\Debug\netcoreapp3.0\Razor\Views\Student\Index.cshtml.g.cs
 D:\Project\StudentRegistrationApp\StudentRegistrationApp\obj\Debug\netcoreapp3.0\Razor\Views\Student\Register.cshtml.g.cs
+D:\Project\StudentRegistrationApp\StudentRegistrationApp\obj\Debug\netcoreapp3.0\Razor\Views\Student\Details.cshtml.g.cs
+D:\Project\StudentRegistrationApp\StudentRegistrationApp\obj\Debug\netcoreapp3.0\Razor\Views\Student\Edit.cshtml.g.cs
+D:\Project\StudentRegistrationApp\StudentRegistrationApp\obj\Debug\netcoreapp3.0\Razor\Views\Student\Delete.cshtml.g.cs

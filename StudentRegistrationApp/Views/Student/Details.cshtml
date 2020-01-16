@@ -1,0 +1,32 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h3 class="text-info">@Html.DisplayFor(m=>m.Name)</h3>
+<hr/>
+<br/>
+
+<div class="container" style="padding: 30px;border: 1px solid black">
+    <table class="table">
+        <tr>
+            <td style="font-weight: bold">@Html.DisplayNameFor(m=>m.Name)</td>
+            <td>@Html.DisplayFor(m=>m.Name)</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold">@Html.DisplayNameFor(m=>m.Age)</td>
+            <td>@Html.DisplayFor(m=>m.Age)</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold">@Html.DisplayNameFor(m=>m.Class)</td>
+            <td>@Html.DisplayFor(m=>m.Class)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <a asp-action="Index" class="btn btn-sm btn-primary">Back To List</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
